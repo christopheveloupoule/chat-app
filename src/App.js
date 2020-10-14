@@ -1,5 +1,6 @@
-import React from 'react';
-import Contact from './components/Contact.js';
+import React from "react";
+import Contact from "./components/Contact.js";
+import "./components/Contact.css";
 
 function App() {
   return (
