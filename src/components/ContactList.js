@@ -32,7 +32,7 @@ const users = [
   const ContactList = () => (
     <div>
       {users.map(item => (
-       <Contact name={item.name} avatar={item.avatar} online={item.online} />
+       <Contact key={item.name} name={item.name} avatar={item.avatar} online={item.online} />
       ))}
     </div>
   );
